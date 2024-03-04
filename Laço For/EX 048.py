@@ -6,5 +6,3 @@ for c in range (1, 501, 2): # Laço do 1 ao 500, pulando de 2 em 2
     print(c, end=' ') # Apresentando resultado
 
 print(f'\n{soma}') # Apresentando a soma total.
-print('teste')
-print('teste')

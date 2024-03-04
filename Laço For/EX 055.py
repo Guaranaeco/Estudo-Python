@@ -17,5 +17,5 @@ for c in range (1 , 5):
         mulheres += 1
 
 print(f'Nome do homem mais velho: {homem}')
-print(f'Média de idade do grupo: {media / 2}')
+print(f'Média de idade do grupo: {media / 4}')
 print(f'Quantidade de mulheres com menos de 20 anos: {mulheres}')
