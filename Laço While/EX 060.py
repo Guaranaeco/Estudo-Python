@@ -1,8 +1,9 @@
-count = 1
-n = int(input('Digite o número para o programa fatorar: '))
-
-while count < n:
-    n *= count
-    count += 1
-
-print(n)
+n = int(input('Digite um número: '))
+contador = n
+fatorial = 1
+while contador > 0:
+    print(f'{n}', end='')
+    print(' x ' if contador > 1 else ' = ', end='')
+    fatorial *= contador
+    contador -= 1
+print(fatorial)
